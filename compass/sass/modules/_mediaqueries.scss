@@ -1,0 +1,187 @@
+// Mediaqueries
+
+
+
+@media only screen
+and (max-width : 767px) {
+	* {
+		text-rendering: optimizeSpeed;
+
+	}
+	#body {
+  		@include background-image(url('../img/marmor_bg1_phone.jpg'));
+  		@include background-size(100% auto);
+  		padding-top: 1em;
+	}
+	#menu {
+		display:none;
+	}
+	#marmor {
+		display:none;
+	}
+	#top div.plakat {
+		font-size:80%;
+		margin-top: 20em;
+		margin-bottom: 17em;
+		img {
+			display:block;
+		}
+		h1.datum {
+			font-size:480%;
+		}
+	}
+	#top div.video {
+		margin-bottom:9em;
+		iframe {
+			width: 32em;
+			height: 19em;
+			background: rgba(0, 0, 0, 0);
+		}
+	}
+
+	#top div.artworks {
+		display:none;
+	}
+	.spalte {
+		font-size:80%;
+		div, .introduction, .about, .place, .topic, .lineup, .artists, .getthere, .sleepwash, .volunteering, .tickets, .contact, .seeyouthere, .volunteer_signup, .imprint1, .imprint2 {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 9em;
+			min-height:0;
+			p {
+				padding:0;
+				line-height:160%;
+				font-size:130%;
+				a {
+					font-size: 95%;
+					min-width: 50%;
+					text-align: center;
+					padding: 0 1em;
+					line-height: 3em;
+					margin: 0.3em auto;
+				}
+			}
+			h2 {
+				text-align: left;
+				margin: 0;
+				font-size: 310%;
+				margin-bottom: 0.5em;
+			}
+			img {
+				//opacity: 0.6;
+				//width: 110% !important;
+				//top: 0em;
+				//left: -5%;
+				//width: 80% !important;
+				//top: 0em;
+				//left: 39%;
+				//bottom: auto;
+				display:none;
+			}
+		}
+
+		.lineup, .artists, .imprint1, .imprint2 {
+			ul, p {
+				width:100%;
+				max-width:100%;
+				float:none;
+			}
+			p {
+				padding: 0 0 6em 0;
+			}
+			ul {
+				padding:0;
+				font-size: 210%;
+				margin-top: 2em;
+
+			}
+			h2 {
+				display:none;
+			}
+		}
+	}
+}
+
+
+@media only screen
+and (min-width : 768px) {
+	.spalte {
+		font-size:80%;
+	}
+	#menu {
+		font-size:88%;
+	}
+	.no-touch {
+		#menu.hover:hover {
+	  		opacity:1;
+	  		height: 14.7em;
+	  		@include box-shadow(0 0 3em rgba(0,0,0,0.3));
+	  		.logo h1 {
+	  			font-size:200%;
+	  			@include transform(translateY(10px));
+	  		}
+		}
+	}
+
+}
+
+@media only screen
+and (min-width : 1024px) {
+	.spalte {
+		font-size:88%;
+	}
+	#menu {
+		font-size:100%;
+	}
+
+}
+
+
+@media only screen
+and (min-width: 1200px) {
+	.spalte {
+		font-size:100%;
+	}
+
+}
+
+
+@media only screen
+and (min-width: 1440px) {
+	.spalte {
+		font-size:108%;
+	}
+	#menu {
+		font-size:108%;
+	}
+
+}
+
+
+@media only screen
+and (min-width: 1680px) {
+	.spalte {
+		font-size:116%;
+	}
+	#menu {
+		font-size:110%;
+	}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+
+	* {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	}
+
+}
+
+
+

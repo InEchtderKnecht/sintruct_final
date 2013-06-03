@@ -1,0 +1,51 @@
+	.bilder {
+		margin-left:0;
+		width:100%;
+		h2 {
+			margin-bottom:80px;
+		}
+		.bild {
+			height:auto;
+			padding: 0;
+			z-index:5;
+			margin-bottom:9%;
+			@include box-shadow(0 0 80px rgba(0,0,0,0.5));
+		}
+		.bild1 {
+			width:30%;
+			float:left;
+			clear:both;
+		}
+		.bild2 {
+			width:50%;
+			float:right;
+			margin-top:6%;
+
+		}
+		.bild3 {
+			width:37%;
+			float:left;
+			clear:both;
+		}
+		.bild4 {
+			width:42%;
+			float:right;
+			margin-top:-8%;
+		}
+		.bild5 {
+			width:35%;
+			float:right;
+			margin-top:5%;
+		}
+		.bild6 {
+			width:50%;
+			float:left;
+			clear:both;
+			margin-top:4%;
+		}
+		.bild7 {
+			width: 20%;
+			float: right;
+			margin-top: 9%;
+		}
+	}
