@@ -143,3 +143,9 @@ setInterval('ss.scrollWindow('+ss_stepsize+','+desty+',"'+anchor+'")',10);
 ss.STEPS = 30;
 
 ss.addEvent(window,"load",ss.fixAllLinks);
+
+
+
+
+
+

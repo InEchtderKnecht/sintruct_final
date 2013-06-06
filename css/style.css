@@ -825,7 +825,7 @@ iframe {
   font-weight: 700;
 }
 .spalte .lineup p, .spalte .artists p, .spalte .imprint2 p {
-  padding: 0 1.8em 5em 1.8em;
+  padding: 0 1.8em 6.2em 1.8em;
   text-align: left;
   font-size: 110%;
 }
@@ -834,7 +834,7 @@ iframe {
 }
 .spalte .lineup p span, .spalte .artists p span, .spalte .imprint2 p span {
   display: block;
-  font-size: 192%;
+  font-size: 220%;
   line-height: 118%;
 }
 .spalte .lineup p span span, .spalte .artists p span span, .spalte .imprint2 p span span {
