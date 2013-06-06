@@ -475,22 +475,12 @@ iframe {
 			}
 		}
 	}
-	.introduction {
+	.introduction, .imprint1 {
 		margin-left:20%;
 		img {
 			width: 124% !important;
 			right: -73%;
 			top: -45px;
-		}
-		.bild {
-			left: 120%;
-			top: 180px;
-			width:40%;
-		}
-		.links {
-			float:left;
-			text-align: right;
-			margin: 0 0 0 -45%;
 		}
 	}
 	.about {
@@ -508,11 +498,6 @@ iframe {
 			right: 110%;
 			top: 230px;
 			width: 70%;
-		}
-		.links {
-			float:right;
-			text-align: left;
-			margin: 0 -45% 0 0;
 		}
 	}
 	.place {
@@ -583,14 +568,18 @@ iframe {
 		}
 	}
 	.imprint1 {
-		margin-left:20%;
+		margin-bottom:8em;
 	}
 	.imprint2 {
 		p span {
 			margin-bottom:0.6em;
+			margin-top: 1.2em;
+			&:first-child {
+				margin-top:0em;
+			}
 		}
 	}
-	.getthere {
+	.getthere, .thankyou {
 		margin-left:30%;
 		img {
 			//width: 109% !important;

@@ -756,23 +756,13 @@ iframe {
 .spalte div .links li a:hover {
   color: #6bc5db;
 }
-.spalte .introduction {
+.spalte .introduction, .spalte .imprint1 {
   margin-left: 20%;
 }
-.spalte .introduction img {
+.spalte .introduction img, .spalte .imprint1 img {
   width: 124% !important;
   right: -73%;
   top: -45px;
-}
-.spalte .introduction .bild {
-  left: 120%;
-  top: 180px;
-  width: 40%;
-}
-.spalte .introduction .links {
-  float: left;
-  text-align: right;
-  margin: 0 0 0 -45%;
 }
 .spalte .about {
   margin-left: 30%;
@@ -791,11 +781,6 @@ iframe {
   right: 110%;
   top: 230px;
   width: 70%;
-}
-.spalte .about .links {
-  float: right;
-  text-align: left;
-  margin: 0 -45% 0 0;
 }
 .spalte .place {
   margin-left: 20%;
@@ -864,15 +849,19 @@ iframe {
   font-size: 100%;
 }
 .spalte .imprint1 {
-  margin-left: 20%;
+  margin-bottom: 8em;
 }
 .spalte .imprint2 p span {
   margin-bottom: 0.6em;
+  margin-top: 1.2em;
 }
-.spalte .getthere {
+.spalte .imprint2 p span:first-child {
+  margin-top: 0em;
+}
+.spalte .getthere, .spalte .thankyou {
   margin-left: 30%;
 }
-.spalte .getthere img {
+.spalte .getthere img, .spalte .thankyou img {
   width: 108.6% !important;
   left: -82%;
   top: 2.3em;
@@ -1128,19 +1117,19 @@ a.imprintLink:hover {
   .spalte {
     font-size: 80%;
   }
-  .spalte div, .spalte .introduction, .spalte .about, .spalte .place, .spalte .topic, .spalte .lineup, .spalte .artists, .spalte .getthere, .spalte .sleepwash, .spalte .volunteering, .spalte .tickets, .spalte .contact, .spalte .seeyouthere, .spalte .volunteer_signup, .spalte .imprint1, .spalte .imprint2 {
+  .spalte div, .spalte .introduction, .spalte .about, .spalte .place, .spalte .topic, .spalte .lineup, .spalte .artists, .spalte .getthere, .spalte .sleepwash, .spalte .volunteering, .spalte .tickets, .spalte .contact, .spalte .seeyouthere, .spalte .volunteer_signup, .spalte .imprint1, .spalte .imprint2, .spalte .thankyou {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 9em;
     min-height: 0;
   }
-  .spalte div p, .spalte .introduction p, .spalte .about p, .spalte .place p, .spalte .topic p, .spalte .lineup p, .spalte .artists p, .spalte .getthere p, .spalte .sleepwash p, .spalte .volunteering p, .spalte .tickets p, .spalte .contact p, .spalte .seeyouthere p, .spalte .volunteer_signup p, .spalte .imprint1 p, .spalte .imprint2 p {
+  .spalte div p, .spalte .introduction p, .spalte .about p, .spalte .place p, .spalte .topic p, .spalte .lineup p, .spalte .artists p, .spalte .getthere p, .spalte .sleepwash p, .spalte .volunteering p, .spalte .tickets p, .spalte .contact p, .spalte .seeyouthere p, .spalte .volunteer_signup p, .spalte .imprint1 p, .spalte .imprint2 p, .spalte .thankyou p {
     padding: 0;
     line-height: 160%;
     font-size: 130%;
   }
-  .spalte div p a, .spalte .introduction p a, .spalte .about p a, .spalte .place p a, .spalte .topic p a, .spalte .lineup p a, .spalte .artists p a, .spalte .getthere p a, .spalte .sleepwash p a, .spalte .volunteering p a, .spalte .tickets p a, .spalte .contact p a, .spalte .seeyouthere p a, .spalte .volunteer_signup p a, .spalte .imprint1 p a, .spalte .imprint2 p a {
+  .spalte div p a, .spalte .introduction p a, .spalte .about p a, .spalte .place p a, .spalte .topic p a, .spalte .lineup p a, .spalte .artists p a, .spalte .getthere p a, .spalte .sleepwash p a, .spalte .volunteering p a, .spalte .tickets p a, .spalte .contact p a, .spalte .seeyouthere p a, .spalte .volunteer_signup p a, .spalte .imprint1 p a, .spalte .imprint2 p a, .spalte .thankyou p a {
     font-size: 95%;
     min-width: 50%;
     text-align: center;
@@ -1148,13 +1137,13 @@ a.imprintLink:hover {
     line-height: 3em;
     margin: 0.3em auto;
   }
-  .spalte div h2, .spalte .introduction h2, .spalte .about h2, .spalte .place h2, .spalte .topic h2, .spalte .lineup h2, .spalte .artists h2, .spalte .getthere h2, .spalte .sleepwash h2, .spalte .volunteering h2, .spalte .tickets h2, .spalte .contact h2, .spalte .seeyouthere h2, .spalte .volunteer_signup h2, .spalte .imprint1 h2, .spalte .imprint2 h2 {
+  .spalte div h2, .spalte .introduction h2, .spalte .about h2, .spalte .place h2, .spalte .topic h2, .spalte .lineup h2, .spalte .artists h2, .spalte .getthere h2, .spalte .sleepwash h2, .spalte .volunteering h2, .spalte .tickets h2, .spalte .contact h2, .spalte .seeyouthere h2, .spalte .volunteer_signup h2, .spalte .imprint1 h2, .spalte .imprint2 h2, .spalte .thankyou h2 {
     text-align: left;
     margin: 0;
     font-size: 310%;
     margin-bottom: 0.5em;
   }
-  .spalte div img, .spalte .introduction img, .spalte .about img, .spalte .place img, .spalte .topic img, .spalte .lineup img, .spalte .artists img, .spalte .getthere img, .spalte .sleepwash img, .spalte .volunteering img, .spalte .tickets img, .spalte .contact img, .spalte .seeyouthere img, .spalte .volunteer_signup img, .spalte .imprint1 img, .spalte .imprint2 img {
+  .spalte div img, .spalte .introduction img, .spalte .about img, .spalte .place img, .spalte .topic img, .spalte .lineup img, .spalte .artists img, .spalte .getthere img, .spalte .sleepwash img, .spalte .volunteering img, .spalte .tickets img, .spalte .contact img, .spalte .seeyouthere img, .spalte .volunteer_signup img, .spalte .imprint1 img, .spalte .imprint2 img, .spalte .thankyou img {
     display: none;
   }
   .spalte .lineup ul, .spalte .lineup p, .spalte .artists ul, .spalte .artists p, .spalte .imprint1 ul, .spalte .imprint1 p, .spalte .imprint2 ul, .spalte .imprint2 p {
