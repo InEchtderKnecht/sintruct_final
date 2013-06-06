@@ -588,6 +588,10 @@ iframe {
   margin-right: auto;
 }
 
+.no-js .spalte div.video {
+  display: none;
+}
+
 .spalte {
   width: 100%;
 }
