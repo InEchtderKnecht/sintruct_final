@@ -1175,14 +1175,14 @@ a.imprintLink:hover {
     font-size: 88%;
   }
 
-  .no-touch #menu.hover:hover {
+  .no-touch #menu.hover:hover, .no-js #menu.hover:hover {
     opacity: 1;
     height: 14.7em;
     -webkit-box-shadow: 0 0 3em rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 0 3em rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 3em rgba(0, 0, 0, 0.3);
   }
-  .no-touch #menu.hover:hover .logo h1 {
+  .no-touch #menu.hover:hover .logo h1, .no-js #menu.hover:hover .logo h1 {
     font-size: 200%;
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);

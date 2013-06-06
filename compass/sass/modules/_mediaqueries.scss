@@ -113,7 +113,7 @@ and (min-width : 768px) {
 	#menu {
 		font-size:88%;
 	}
-	.no-touch {
+	.no-touch, .no-js {
 		#menu.hover:hover {
 	  		opacity:1;
 	  		height: 14.7em;
